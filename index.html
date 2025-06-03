@@ -3,43 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Website</title>
+    <title>Technological University of the Philippines - Visayas</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
+        <a href="index.html" class="header-logo">
         <img src="img/tup_logo.svg" alt="School Logo" class="logo">
+        </a>
         <h1>Technological University of the Philippines - Visayas</h1>
     </header>
 
-    <nav>
-        <a href="about.html">About Page</a>
-        <a href="admission.html">Admission Page</a>
-        <a href="student.html">Student Page</a>
-        <a href="academics.html">Academics</a>
-    </nav>
+<nav class="navbar">
+  <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+
+    <li class="dropdown">
+      <a href="about.html">About</a>
+      <ul class="dropdown-menu">
+        <li><a href="about.html#history">History</a></li>
+        <li><a href="about.html#officials">TUP-V Officials</a></li>
+        <li><a href="about.html#tup-hymn">TUP Hymn</a></li>
+        <li><a href="about.html#mission">Mission</a></li>
+        <li><a href="about.html#vision">Vision</a></li>
+        <li><a href="about.html#core-values">Core Values</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="admission.html">Admission</a>
+      <ul class="dropdown-menu">
+        <li><a href="admission.html#admission-process">Admission Process</a></li>
+        <li><a href="admission.html#enrollment">Enrollment (1st Year)</a></li>
+        <li><a href="admission.html#admission-office">TUPV Admission’s Office</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="student.html">Student</a>
+      <ul class="dropdown-menu">
+        <li><a href="student.html#student-orgs">Student Organizations</a></li>
+        <li><a href="student.html#usg-officers">USG Officers</a></li>
+        <li><a href="student.html#ers">ERS</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="academics.html">Academics</a>
+      <ul class="dropdown-menu">
+        <li><a href="academics.html#coe">College of Engineering (COE)</a></li>
+        <li><a href="academics.html#coac">College of Automation and Control</a></li>
+        <li><a href="academics.html#coet">College of Engineering Technology</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<!-- Cookie Consent Modal -->
+<div id="cookie-modal" class="cookie-modal">
+  <div class="cookie-content">
+    <h3>🍪 We use cookies!</h3>
+    <p>This website uses cookies to enhance your experience. Please accept or reject.</p>
+    <div class="cookie-buttons">
+      <button id="accept-cookie">Accept</button>
+      <button id="reject-cookie">Reject</button>
+    </div>
+  </div>
+</div>
+
 
     <div class="fullscreen-slider">
-    <div class="slides">
+        <div class="slides">
         <input type="radio" name="radio-btn" id="slide1" checked>
         <input type="radio" name="radio-btn" id="slide2">
         <input type="radio" name="radio-btn" id="slide3">
+        <input type="radio" name="radio-btn" id="slide4">
+        <input type="radio" name="radio-btn" id="slide5">
 
         <div class="slide first">
-            <img src="img/slide1.jpg" alt="Slide 1">
+            <a href="https://web.facebook.com/TUPVADMISSION">
+                <img src="img/slide1.jpg" alt="Slide 1">
+            </a>
         </div>
         <div class="slide">
-            <img src="img/slide2.jpg" alt="Slide 2">
+            <a href="https://www.facebook.com/PhilArtisanVisayas/posts/pfbid0yogBGYFLmVcLw7J7X9eoUsYuhMLfMD19Cv7UsZ9MHB3UgjNLzsYKT12RjSgYNaLHl">
+                <img src="img/slide2.jpg" alt="Slide 2">
+            </a>
         </div>
         <div class="slide">
-            <img src="img/slide3.jpg" alt="Slide 3">
+            <a href="https://www.facebook.com/PhilArtisanVisayas/posts/pfbid0Wx39Dqjvqr57EfJtKc7HqJKhM5Ap5MnVis9TocsDgnBtM36BBYc2jpUKZPkYLtxl?_rdc=1&_rdr#">
+                <img src="img/slide3.jpg" alt="Slide 3">
+            </a>
+        </div>
+        <div class="slide">
+            <a href="https://www.facebook.com/tupvtechnowatch/posts/pfbid0ZENiHXCgcnWzZzFFagxWnMN1ShQLXwGKGyseQ7WT8AE88HPwQ69cn2qBEdGQ7vFQl?_rdc=1&_rdr#">
+                <img src="img/slide4.jpg" alt="Slide 4">
+            </a>
+        </div>
+        <div class="slide">
+            <a href="https://www.facebook.com/tupvtechnowatch/posts/pfbid02RusfrXeYcdrUNX9g4dncSKdjt54rhDPDVZxGUXDgCXsz2TqcLEG9UDprVBWjgnh4l?_rdc=1&_rdr#">
+                <img src="img/slide5.jpg" alt="Slide 5">
+            </a>
         </div>
 
         <div class="navigation-auto">
             <div class="auto-btn1"></div>
             <div class="auto-btn2"></div>
             <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
         </div>
     </div>
 
@@ -47,32 +120,91 @@
         <label for="slide1" class="manual-btn"></label>
         <label for="slide2" class="manual-btn"></label>
         <label for="slide3" class="manual-btn"></label>
+        <label for="slide4" class="manual-btn"></label>
+        <label for="slide5" class="manual-btn"></label>
     </div>
     </div>
 
-    <section class="card-section">
-    <div class="card">
-        <img src="img/card1.jpg" alt="Card 1">
-        <h3>Admission Process</h3>
+<section class="card-section"> 
+  <div class="card">
+    <a href="admission_section.html">
+      <img src="img/card1.jpg" alt="Card 1">
+    </a>
+    <h3>Admission Process</h3>
+  </div>
+
+  <div class="card">
+    <a href="enrollment_section.html">
+      <img src="img/card2_alt.jpg" alt="Card 2">
+    </a>
+    <h3>Enrollment Procedure</h3>
+  </div>
+
+  <div class="card">
+    <a href="academics.html">
+      <img src="img/card4.jpg" alt="Card 3">
+    </a>
+    <h3>Programs Offered</h3>
+  </div>
+
+  <div class="card">
+    <a href="organizations.html">
+      <img src="img/tup_logo_bg_medium.jpg" alt="Card 4">
+    </a>
+    <h3>Organizations</h3>
+  </div>
+</section>
+    
+    <section class="blog-wrapper">
+    <h1 class="blog-title">Latest Articles</h1>
+    <div class="blog-section">
+        <div class="blog-card">
+            <img src="img/ect_boardpasser.jpg" alt="Blog 1">
+            <div class="blog-content">
+                <h3>TUPV Shines in ECE and ECT Board Exams: Tops National Rangking with Outstanding Passers</h3>
+                <p>April 10, 2025</p>
+                <a href="https://www.facebook.com/TUPVisayasUSG/posts/pfbid028Wt885emQXPFpE48o4XiXrfsRMHZZqwzqzg6zJ3cEbcRYdHoL2oEnuxmZBnijEhMl" class="read-btn">Read More</a>
+            </div>
+        </div>
+    <div class="blog-card">
+        <img src="img/tech_convention.jpg" alt="Blog 2">
+        <div class="blog-content">
+            <h3>Technology Convention 2025: Kindling Advanced Research and Innovation for the Next-gen Arena</h3>
+            <p>April 7, 2025</p>
+            <a href="https://www.facebook.com/PhilArtisanVisayas/posts/pfbid0yogBGYFLmVcLw7J7X9eoUsYuhMLfMD19Cv7UsZ9MHB3UgjNLzsYKT12RjSgYNaLHl" class="read-btn">Read More</a>
+        </div>
     </div>
-    <div class="card">
-        <img src="img/card2_alt.jpg" alt="Card 2">
-        <h3>Enrollment Procedure</h3>
+    <div class="blog-card">
+        <img src="img/usg_elections.jpg" alt="Blog 3">
+        <div class="blog-content">
+            <h3>#HELE2025Updates | What is HELE?</h3>
+            <p>May 31, 2025</p>
+            <a href="https://web.facebook.com/photo/?fbid=1180248297447758&set=a.464480719024523&_rdc=1&_rdr#" class="read-btn">Read More</a>
+        </div>
     </div>
-    <div class="card">
-        <img src="img/card4.jpg" alt="Card 3">
-        <h3>Programs Offered</h3>
+    <div class="blog-card">
+        <img src="img/hardhatting_ceremony.jpg" alt="Blog 4">
+        <div class="blog-content">
+            <h3>Mechanical Engineering department honors 146 students in second Hardhatting, Pinning rites</h3>
+            <p>May 30, 2025</p>
+            <a href="https://facebook.com/PhilArtisanVisayas/posts/pfbid0Wx39Dqjvqr57EfJtKc7HqJKhM5Ap5MnVis9TocsDgnBtM36BBYc2jpUKZPkYLtxl" class="read-btn">Read More</a>
+        </div>
     </div>
-    <div class="card">
-        <img src="img/tup_logo_bg_medium.jpg" alt="Card 4">
-        <h3>Organizations</h3>
+    <div class="blog-card">
+        <img src="img/technowatch_buildWithAI.jpg" alt="Blog 5">
+        <div class="blog-content">
+            <h3>Build with AI: A Day Where Learning Comes Full Circle</h3>
+            <p>May 3, 2025</p>
+            <a href="https://facebook.com/tupvtechnowatch/posts/pfbid0ZENiHXCgcnWzZzFFagxWnMN1ShQLXwGKGyseQ7WT8AE88HPwQ69cn2qBEdGQ7vFQl" class="read-btn">Read More</a>
+        </div>
     </div>
     </section>
 
-    <main>
-        <h2>Home Page</h2>
-        <p>This is the homepage. Use the menu above to explore our website.</p>
-    </main>
+<footer class="site-footer">
+  <p>Technological University of the Philippines - Visayas. All rights reserved.</p>
+</footer>
 
+ <script src="/script/script.js"></script>
 </body>
 </html>
+

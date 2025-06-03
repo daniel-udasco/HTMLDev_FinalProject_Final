@@ -1,0 +1,66 @@
+-add href links to (5 sliders)
+
+- For sliders
+	add left and right buttons for sliders
+	add animation (JS) to slider section in homepage
+	add darkening filter to slider section but when hovered it turns to normal filter.
+
+- In index.html
+	Add other details for welcome page (ex. login form for TUP-Visayas official newsletter)
+
+- design header to be more fancy
+	copy for each html file
+
+- rename title for each html
+	copy for each html file
+
+- icon for tabs for each html
+	copy for each html file
+
+
+
+-----------------------------------
+- In about.html
+	for main nav:
+		about TUP-Visayas
+		tup history
+		address with Google Maps
+		
+	for dropdowns: separate into 4 parts:
+		history.html
+		official.html TUP-V Officials (3 person - large) (16 person - small with slider) (40+ person - list (name only))
+		tup_hymn.html
+		mission_vision_corevalues.html
+
+- In admission.html
+	for main nav:
+		compile all of sections
+	for dropdowns: seperate into 3parts
+		admission_section.html (copy TUP site. basta may login modals)
+		enrollment_section.html (copy TUP site. same as above)
+		tup_admission_office.html (description, address, Google Maps, contact us button link to Admission FB page)
+
+- In student.html
+	for main nav:
+		compile all of sections	
+	for dropdowns: seperate into 3parts
+	note: make the elements different and larger
+		student_orgs.html
+			insert logo
+			(enlarge, not clickable)
+		usg_officers.html
+			insert placeholder img and text
+			(enlarge, different style)
+		ers.html (enlarge)
+
+- In academics.html
+	for main nav:
+		compile all of sections	
+	for dropdowns: seperate into 3parts
+		OK NA!:  shortcut lng
+	note: (make the logo clickable and insert "modal" or another "webpage" with course name and description)
+
+
+optionals:
+student_orgs.html (make it clickable and insert modal with orgs desc)
+usg_officers.html (make it clickable and insert modal with name and positions)
