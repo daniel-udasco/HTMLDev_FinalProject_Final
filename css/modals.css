@@ -6,25 +6,27 @@
   transform: translate(-50%, -50%);
   width: 90%;
   max-width: 400px;
-  background: #fff;
-  color: #333;
+  background: #F5F5F5;
+  color: #2E2E30;
   border-radius: 12px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 25px rgba(46, 46, 48, 0.2);
   padding: 25px 20px;
   z-index: 9999;
   text-align: center;
   transition: transform 0.3s ease, opacity 0.3s ease;
+  border: 1px solid #E0E0E0;
 }
 
 .cookie-content h3 {
   margin-bottom: 10px;
   font-size: 1.4rem;
-  color: #222;
+  color: #2E2E30;
 }
 
 .cookie-content p {
   font-size: 1rem;
   margin-bottom: 20px;
+  color: #2E2E30;
 }
 
 .cookie-buttons {
@@ -44,21 +46,21 @@
 }
 
 #accept-cookie {
-  background-color: #4caf50;
-  color: white;
+  background-color: #C51D34;
+  color: #F5F5F5;
 }
 
 #reject-cookie {
-  background-color: #f44336;
-  color: white;
+  background-color: #808080;
+  color: #F5F5F5;
 }
 
 #accept-cookie:hover {
-  background-color: #388e3c;
+  background-color: #A61B2B;
 }
 
 #reject-cookie:hover {
-  background-color: #d32f2f;
+  background-color: #666666;
 }
 
 .cookie-modal.hide {
@@ -71,50 +73,56 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background: #fff;
-  color: #000;
+  background: #F5F5F5;
+  color: #2E2E30;
   padding: 20px 25px;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(46, 46, 48, 0.15);
   width: 300px;
   z-index: 1000;
   display: none;
   animation: fadeInUp 0.6s ease forwards;
+  border: 1px solid #E0E0E0;
 }
 
 /* Newsletter Modal Style*/
 .newsletter-content h4 {
   margin: 0 0 8px;
   font-size: 18px;
+  color: #2E2E30;
 }
 
 .newsletter-content p {
   margin: 0 0 10px;
   font-size: 14px;
+  color: #2E2E30;
 }
 
 .newsletter-input {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #808080;
   border-radius: 6px;
   font-size: 14px;
+  background-color: #FFFFFF;
+  color: #2E2E30;
 }
 
 .subscribe-btn {
   width: 100%;
   padding: 8px;
-  background-color: #c0392b;
-  color: white;
+  background-color: #C51D34;
+  color: #F5F5F5;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
+  transition: background 0.2s ease;
 }
 
 .subscribe-btn:hover {
-  background-color: #a93226;
+  background-color: #A61B2B;
 }
 
 .close-btn {
@@ -122,11 +130,12 @@
   top: 8px;
   right: 12px;
   font-size: 20px;
-  color: #999;
+  color: #808080;
   cursor: pointer;
   font-weight: bold;
+  transition: color 0.2s ease;
 }
 
 .close-btn:hover {
-  color: black;
+  color: #C51D34;
 }

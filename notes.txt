@@ -7,9 +7,6 @@
 	copy for each html file
 
 
-
-
-
 -----------------------------------
 - In about.html
 	for main nav:
@@ -50,7 +47,6 @@
 	for dropdowns: seperate into 3parts
 		OK NA!:  shortcut lng
 	note: (make the logo clickable and insert "modal" or another "webpage" with course name and description)
-
 
 optionals:
 student_orgs.html (make it clickable and insert modal with orgs desc)

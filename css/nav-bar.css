@@ -1,7 +1,7 @@
 .navbar {
-  background: linear-gradient(to right, #900C3F, #C70039);
+  background: linear-gradient(to right, #A61B2B, #C51D34);
   padding: 10px 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(46, 46, 48, 0.2);
 }
 
 .nav-menu {
@@ -19,7 +19,7 @@
 }
 
 .nav-menu a {
-  color: #fff;
+  color: #F5F5F5;
   text-decoration: none;
   font-weight: bold;
   padding: 12px 18px;
@@ -34,7 +34,7 @@
 }
 
 .nav-menu a:hover {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(245, 245, 245, 0.1);
   border-radius: 8px;
 }
 
@@ -43,9 +43,9 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #600020;
+  background-color: #8A1A27;
   min-width: 200px;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px rgba(46, 46, 48, 0.25);
   border-radius: 6px;
   z-index: 1000;
 }

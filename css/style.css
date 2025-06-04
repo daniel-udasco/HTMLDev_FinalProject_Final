@@ -1,32 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    background-color: #F5F5F5;
+    color: #2E2E30;
 }
 
 header {
-    background-color: #7b1e3c;
-    color: white;
+    background-color: #C51D34;
+    color: #F5F5F5;
     padding: 20px;
     margin: 0;
     display: flex;
-    flex-direction: row;         /* Align items left to right */
-    justify-content: center;     /* Center the whole group horizontally */
-    align-items: center;         /* Vertically center logo and text */
-    gap: 20px;                   /* Small space between logo and text */
-    text-align: left;            /* Align heading text left inside h1 */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
 }
-
 
 .logo {
     width: 80px;
     height: auto;
     display: block;
-    margin: 0;                   /* Remove auto and 10px margins */
+    margin: 0;
 }
-
-
-
-
 
 /* Fullscreen slider container */
 .fullscreen-slider {
@@ -84,7 +81,7 @@ input[type="radio"] {
 }
 
 .manual-btn {
-    border: 2px solid white;
+    border: 2px solid #F5F5F5;
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
@@ -93,7 +90,7 @@ input[type="radio"] {
 }
 
 .manual-btn:hover {
-    background: white;
+    background: #F5F5F5;
 }
 
 /* Slide position control */
@@ -113,7 +110,6 @@ input[type="radio"] {
     margin-left: -400vw;
 }
 
-
 /* Card section */
 .card-section {
     display: flex;
@@ -121,22 +117,24 @@ input[type="radio"] {
     flex-wrap: wrap;
     gap: 20px;
     padding: 40px;
-    background-color: #f8f8f8;
+    background-color: #F5F5F5;
 }
 
 /* Individual card */
 .card {
-    background-color: white;
+    background-color: #FFFFFF;
     width: 250px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(46, 46, 48, 0.1);
     text-align: center;
     overflow: hidden;
     transition: transform 0.3s;
+    border: 1px solid #E0E0E0;
 }
 
 .card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(46, 46, 48, 0.15);
 }
 
 /* Card image */
@@ -151,8 +149,8 @@ input[type="radio"] {
     padding: 15px;
     font-size: 1.2em;
     margin: 0;
+    color: #2E2E30;
 }
-
 
 /* Blog section */
 .blog-section {
@@ -161,18 +159,19 @@ input[type="radio"] {
     justify-content: center;
     gap: 30px;
     padding: 40px;
-    background-color: #f0f0f0;
+    background-color: #EDEDED;
 }
 
 /* Individual blog card */
 .blog-card {
-    background-color: #fff;
+    background-color: #FFFFFF;
     width: 280px;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(46, 46, 48, 0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    border: 1px solid #E0E0E0;
 }
 
 /* Blog image */
@@ -194,13 +193,14 @@ input[type="radio"] {
 .blog-content h3 {
     margin: 0 0 10px;
     font-size: 1.2rem;
+    color: #2E2E30;
 }
 
 /* Description */
 .blog-content p {
     flex-grow: 1;
     margin: 0 0 15px;
-    color: #555;
+    color: #2E2E30;
     font-size: 0.95rem;
 }
 
@@ -208,8 +208,8 @@ input[type="radio"] {
 .read-btn {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #7b1e3c;
-    color: #fff;
+    background-color: #C51D34;
+    color: #F5F5F5;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
@@ -217,27 +217,25 @@ input[type="radio"] {
 }
 
 .read-btn:hover {
-    background-color: #55162a;
+    background-color: #A61B2B;
 }
-
 
 /* Blog wrapper title */
 .blog-wrapper {
     padding: 40px 20px;
-    background-color: #f0f0f0;
+    background-color: #EDEDED;
     text-align: center;
 }
 
 .blog-title {
     font-size: 2rem;
     margin-bottom: 30px;
-    color: #333;
+    color: #2E2E30;
 }
 
-/*ABOUT PAGE*/
-
+/* ABOUT PAGE */
 .about-section {
-    background-color: #f9f9f9;
+    background-color: #F5F5F5;
     padding: 60px 20px;
     font-family: 'Segoe UI', sans-serif;
 }
@@ -251,19 +249,19 @@ input[type="radio"] {
     text-align: center;
     margin-bottom: 50px;
     font-size: 36px;
-    color: #333;
+    color: #2E2E30;
 }
 
 .tupv-officials-section {
   padding: 60px 20px;
-  background-color: #f7f7f7;
+  background-color: #EDEDED;
   text-align: center;
 }
 
 .tupv-officials-section h2 {
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #222;
+  color: #2E2E30;
 }
 
 .officials-container {
@@ -274,12 +272,13 @@ input[type="radio"] {
 }
 
 .official-card {
-  background-color: #fff;
+  background-color: #FFFFFF;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(46, 46, 48, 0.1);
   max-width: 250px;
   text-align: center;
+  border: 1px solid #E0E0E0;
 }
 
 .official-card img {
@@ -288,35 +287,35 @@ input[type="radio"] {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
-  border: 3px solid #ccc;
+  border: 3px solid #E0E0E0;
 }
 
 .official-card h3 {
   font-size: 1.2rem;
   margin-bottom: 5px;
-  color: #333;
+  color: #2E2E30;
 }
 
 .official-card p {
   font-size: 0.95rem;
-  color: #666;
+  color: #2E2E30;
 }
 
 .tup-hymn-section {
   padding: 60px 20px;
-  background-color: #e9f5ff;
+  background-color: #EDEDED;
   text-align: center;
 }
 
 .tup-hymn-section h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #222;
+  color: #2E2E30;
 }
 
 .tup-hymn-section p {
   font-size: 1rem;
-  color: #555;
+  color: #2E2E30;
   margin-bottom: 30px;
 }
 
@@ -325,11 +324,11 @@ input[type="radio"] {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
-  padding-bottom: 56.25%; /* 16:9 ratio */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(46, 46, 48, 0.1);
 }
 
 .video-container iframe {
@@ -341,22 +340,23 @@ input[type="radio"] {
 }
 
 .about-block {
-    background: #fff;
+    background: #FFFFFF;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(46, 46, 48, 0.05);
+    border: 1px solid #E0E0E0;
 }
 
 .about-block h2 {
     font-size: 28px;
-    color: #800000;
+    color: #C51D34;
     margin-bottom: 15px;
 }
 
 .about-block p {
     font-size: 16px;
-    color: #444;
+    color: #2E2E30;
     line-height: 1.6;
 }
 
@@ -366,15 +366,13 @@ input[type="radio"] {
 
 .about-block ul li {
     font-size: 16px;
-    color: #444;
+    color: #2E2E30;
     margin-bottom: 8px;
 }
 
-
-/*ADMISSION PAGE*/
-
+/* ADMISSION PAGE */
 .admission-section {
-    background-color: #ffffff;
+    background-color: #F5F5F5;
     padding: 60px 20px;
     font-family: 'Segoe UI', sans-serif;
 }
@@ -388,45 +386,44 @@ input[type="radio"] {
     text-align: center;
     margin-bottom: 50px;
     font-size: 36px;
-    color: #333;
+    color: #2E2E30;
 }
 
 .admission-block {
-    background: #f4f4f4;
+    background: #FFFFFF;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
-    border-left: 6px solid #800000;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    border-left: 6px solid #C51D34;
+    box-shadow: 0 2px 6px rgba(46, 46, 48, 0.04);
+    border: 1px solid #E0E0E0;
 }
 
 .admission-block h2 {
     font-size: 26px;
-    color: #800000;
+    color: #C51D34;
     margin-bottom: 15px;
 }
 
 .admission-block p {
     font-size: 16px;
-    color: #444;
+    color: #2E2E30;
     line-height: 1.6;
 }
 
-
-
 /* SECTION STYLES */
 .student-orgs-section {
-    background-color: #f2f2f2;
+    background-color: #EDEDED;
     padding: 60px 20px;
 }
 
 .usg-section {
-    background-color: #ffffff;
+    background-color: #F5F5F5;
     padding: 60px 20px;
 }
 
 .ers-section {
-    background-color: #e8e8e8;
+    background-color: #E0E0E0;
     padding: 60px 20px;
     text-align: center;
 }
@@ -441,7 +438,7 @@ section h1 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 34px;
-    color: #800000;
+    color: #C51D34;
 }
 
 /* STUDENT ORGANIZATIONS GRID */
@@ -458,11 +455,12 @@ section h1 {
 }
 
 .org-card {
-    background: white;
+    background: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 6px rgba(46, 46, 48, 0.05);
+    border: 1px solid #E0E0E0;
 }
 
 .org-card img {
@@ -487,11 +485,12 @@ section h1 {
 }
 
 .officer-card {
-    background: #fdfdfd;
+    background: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 6px rgba(46, 46, 48, 0.06);
+    border: 1px solid #E0E0E0;
 }
 
 .officer-card img {
@@ -507,12 +506,12 @@ section h1 {
     max-width: 700px;
     margin: 0 auto 20px;
     font-size: 16px;
-    color: #444;
+    color: #2E2E30;
 }
 
 .ers-button {
-    background-color: #800000;
-    color: white;
+    background-color: #C51D34;
+    color: #F5F5F5;
     padding: 12px 25px;
     text-decoration: none;
     font-weight: bold;
@@ -521,11 +520,10 @@ section h1 {
 }
 
 .ers-button:hover {
-    background-color: #a00000;
+    background-color: #A61B2B;
 }
 
-
-/* GENERAL SECTION STYLING */
+/* COLLEGE SECTIONS */
 .college-section {
   padding: 60px 20px;
   font-family: 'Segoe UI', sans-serif;
@@ -536,17 +534,17 @@ section h1 {
   margin: auto;
 }
 
-/* UNIQUE BACKGROUNDS */
+/* DIFFERENT BACKGROUNDS COLORS*/
 .coe-section {
-  background: #fef9f4;
+  background: #F5F5F5;
 }
 
 .coac-section {
-  background: #eef7ff;
+  background: #EDEDED;
 }
 
 .coet-section {
-  background: #f0fff2;
+  background: #E0E0E0;
 }
 
 /* COLLEGE HEADER STYLING */
@@ -577,12 +575,13 @@ section h1 {
 }
 
 .course-card {
-  background: #fff;
+  background: #FFFFFF;
   border-radius: 12px;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(46, 46, 48, 0.05);
   transition: transform 0.3s ease;
+  border: 1px solid #E0E0E0;
 }
 
 .course-card:hover {
@@ -596,15 +595,16 @@ section h1 {
   margin-bottom: 10px;
 }
 
+
 .course-card h3 {
   font-size: 16px;
-  color: #444;
+  color: #2E2E30;
 }
 
 /* Footer */
 .footer {
-  background-color: #1e1e1e;
-  color: #fff;
+  background-color: #2E2E30;
+  color: #F5F5F5;
   padding: 40px 20px;
   text-align: center;
   position: relative;
@@ -638,15 +638,16 @@ section h1 {
   margin: 8px 0;
 }
 
+
 .contact-list a {
-  color: #ccc;
+  color: #E0E0E0;
   text-decoration: none;
   font-size: 16px;
   transition: all 0.3s ease;
 }
 
 .contact-list a:hover {
-  color: #ff4d4d;
+  color: #C51D34;
 }
 
 .contact-list i {
