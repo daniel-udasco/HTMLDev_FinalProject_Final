@@ -1,21 +1,12 @@
--add href links to (5 sliders)
-
 - For sliders
 	add left and right buttons for sliders
 	add animation (JS) to slider section in homepage
 	add darkening filter to slider section but when hovered it turns to normal filter.
 
-- In index.html
-	Add other details for welcome page (ex. login form for TUP-Visayas official newsletter)
-
-- design header to be more fancy
+- design header to be more fancy (change layout, fontC)
 	copy for each html file
 
-- rename title for each html
-	copy for each html file
 
-- icon for tabs for each html
-	copy for each html file
 
 
 
@@ -64,3 +55,24 @@
 optionals:
 student_orgs.html (make it clickable and insert modal with orgs desc)
 usg_officers.html (make it clickable and insert modal with name and positions)
+
+
+- footer 
+	copy for each html file
+
+- <head> section (for things like css, font awesome)
+	copy for each html file
+
+- <body> section (for scripts, etc.)
+	copy for each html file
+
+- rename title
+	copy for each html file
+
+- icon for tabs
+	copy for each html file
+
+-nav-bar
+	copy for each html file
+
+
