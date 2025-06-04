@@ -6,6 +6,7 @@
 - design header to be more fancy (change layout, fontC)
 	copy for each html file
 
+- side-nav-bar
 
 -----------------------------------
 - In about.html
@@ -68,7 +69,7 @@ usg_officers.html (make it clickable and insert modal with name and positions)
 - icon for tabs
 	copy for each html file
 
--nav-bar
+- nav-bar
 	copy for each html file
 
 
