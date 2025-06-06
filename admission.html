@@ -64,25 +64,134 @@
   </ul>
 </nav>
 
-<section id="admission" class="admission-section">
-  <div class="container">
+<div class="side-navbar">
+  <button onclick="scrollToTop()" title="Scroll to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <a href="home.html" title="Home">
+    <i class="fas fa-home"></i>
+  </a>
+  <button onclick="scrollToBottom()" title="Scroll to Bottom">
+    <i class="fas fa-arrow-down"></i>
+  </button>
+</div>
 
-    <h1>Admission Information</h1>
+<section id="admission" class="admission-section" style="background-color: #f8f8f8; padding: 40px 0;">
+  <div class="container" style="max-width: 800px; margin: auto; color: #333; font-family: Arial, sans-serif;">
 
-    <div class="admission-block" id="admission-process">
-      <h2>Admission Process</h2>
+    <h1 style="color: #b30000; text-align: center;">Admission Information</h1>
+
+    <div class="admission-block" id="admission-process" style="margin-top: 30px;">
+      <h2 style="color: #800000;">Admission Process</h2>
       <p>Applicants must complete the online registration form, upload the required documents, and await confirmation of eligibility via email.</p>
     </div>
 
-    <div class="admission-block" id="enrollment">
-      <h2>Enrollment (1st Year)</h2>
-      <p>First-year students must submit original documents, attend orientation, and complete the enrollment checklist available at the registrar's office.</p>
+    <div class="admission-block" id="admission-form" style="margin-top: 40px; background-color: #fff; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+      <h2 style="color: #b30000;">Student Application Form</h2>
+      <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin: 5px 0 15px;"><br>
+
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday" required style="width: 100%; padding: 8px; margin: 5px 0 15px;"><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" required style="width: 100%; padding: 8px; margin: 5px 0 15px;"><br>
+
+        <label for="schoolYear">School Year:</label><br>
+        <input type="text" id="schoolYear" name="schoolYear" placeholder="e.g. 2025-2026" required style="width: 100%; padding: 8px; margin: 5px 0 20px;"><br>
+
+        <button type="submit" style="background-color: #b30000; color: white; padding: 10px 20px; border: none; border-radius: 4px;">Submit Application</button>
+      </form>
+      <p style="margin-top: 15px; font-style: italic; color: #555;">Please submit all requirements to our office after completing the online form.</p>
     </div>
 
-    <div class="admission-block" id="admission-office">
-      <h2>TUPV Admission’s Office</h2>
-      <p>The TUPV Admission’s Office provides assistance for inquiries and guides students through the admission and enrollment processes. Office hours are from 8:00 AM to 5:00 PM, Monday to Friday.</p>
+    <div class="admission-block" id="requirements" style="margin-top: 40px;">
+      <h2 style="color: #800000;">𝐀𝐃𝐌𝐈𝐒𝐒𝐈𝐎𝐍 𝐑𝐄𝐐𝐔𝐈𝐑𝐄𝐌𝐄𝐍𝐓𝐒:</h2>
+      <ol style="margin-left: 20px; color: #333;">
+        <li>
+          <b>(a)</b> For SHS - <i>ORIGINAL</i> report card or Form 138<br>
+          <b>(b)</b> For Transferee - TOR and Certificate of Transfer Credential
+        </li>
+        <li>Photocopy of birth certificate from NSO or PSA</li>
+        <li>2 Pcs - 2x2 ID picture (Please write your full name and the course you are qualified in on the back)</li>
+        <li>Original certificate of good moral character</li>
+        <li>SHS Student's permanent record / SF 10 / Form 137</li>
+      </ol>
     </div>
+
+  </div>
+</section>
+
+    <section id="enrollment" class="enrollment-section">
+  <div class="container">
+    <h1>Enrollment Instructions</h1>
+
+    <div class="instruction-box">
+      <p><strong>𝐊𝐢𝐧𝐝𝐥𝐲 𝐟𝐨𝐥𝐥𝐨𝐰 𝐭𝐡𝐞 𝐬𝐭𝐞𝐩𝐬 𝐚𝐧𝐝 𝐫𝐞𝐚𝐝 𝐭𝐡𝐞 𝐢𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐨𝐧𝐬 𝐜𝐚𝐫𝐞𝐟𝐮𝐥𝐥𝐲:</strong></p>
+      <p>🔴<strong>𝐒𝐓𝐄𝐏 𝟏:</strong><br>
+        Scan the QR code or click <a href="https://ers.tup.edu.ph/aims/applicants/" target="_blank">ers.tup.edu.ph/aims/applicants/</a> and click "Apply."</p>
+
+      <p>🔴<strong>𝐒𝐓𝐄𝐏 𝟐:</strong><br>
+        Complete the Profile Verification Form:<br>
+        - Select "Visayas Campus" and click "Continue."<br>
+        - Fill out all required information.<br>
+        ➡️Ensure you complete the Family Background and Educational Attainment sections.<br>
+        ➡️Upload a low-resolution 2x2 image in .jpeg or .jpg format.<br>
+        ➡️Skip the Employment Background section but check the "Data Subject Consent Form."</p>
+
+      <p>🔴<strong>𝐒𝐓𝐄𝐏 𝟑:</strong><br>
+        Click the "Exam Schedule" button at the top of the page and choose <strong>March 22, 2025</strong>.</p>
+
+      <p>🔴<strong>𝐒𝐓𝐄𝐏 𝟒:</strong><br>
+        <strong>THIS IS VERY IMPORTANT:</strong> Save a screenshot or print the application form containing:<br>
+        - USERNAME (Applicant ID number)<br>
+        - PASSWORD<br>
+        - Proof of exam date (March 22, 2025) and location (TUPV Talisay)<br>
+        Present this to admission personnel on exam day.</p>
+
+      <p><strong>𝐒𝐓𝐄𝐏 𝟓:</strong><br>
+        Fill out the Admission Google Form: <a href="https://forms.gle/uxxEvzLqu38vFB539" target="_blank">https://forms.gle/uxxEvzLqu38vFB539</a></p>
+
+      <p><strong>On the Day of the Examination:</strong><br>
+        -Present the screenshot or printed copy<br>
+        -Bring two sharpened pencils<br>
+        -Dress appropriately: No shorts, sleeveless tops, or slippers<br>
+        -Arrive 30 minutes before the scheduled exam</p>
+    </div>
+
+    <div class="image-grid">
+      <div class="step-image"><img src="img/step1.jpg" alt="Step 1"></div>
+      <div class="step-image"><img src="img/step2.jpg" alt="Step 2"></div>
+      <div class="step-image"><img src="img/step3.jpg" alt="Step 3"></div>
+      <div class="step-image"><img src="img/step4.jpg" alt="Step 4"></div>
+      <div class="step-image"><img src="img/step5.jpg" alt="Step 5"></div>
+      <div class="step-image"><img src="img/step6.jpg" alt="Step 6"></div>
+    </div>
+  </div>
+</section>
+
+    <section id="admission-office" class="admission-section">
+  <div class="container">
+    <h2>TUP-V Admission Office</h2>
+    <div class="admission-content">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125437.80129432004!2d122.88706668518913!3d10.739779018321329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed695b2a51da3%3A0x95fc0e20bdc0ab77!2sTechnological%20University%20of%20the%20Philippines%20Visayas!5e0!3m2!1sen!2sph!4v1749064131934!5m2!1sen!2sp" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <div class="admission-text">
+        <p><strong>Address:</strong> Technological University of the Philippines Visayas, Talisay City, Negros Occidental</p>
+        <p>The TUPV Admission’s Office provides assistance for inquiries and guides students through the admission and enrollment processes. Office hours are from <strong>8:00 AM to 5:00 PM, Monday to Friday</strong>.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
   </div>
 </section>

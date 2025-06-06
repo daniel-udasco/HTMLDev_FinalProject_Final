@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Technological University of the Philippines - Visayas</title>
-    <link rel="icon" type="image/x-icon" href="img/tup_icon.ico"">
+    <link rel="icon" type="image/x-icon" href="img/tup_icon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/modals.css">
     <link rel="stylesheet" href="css/nav-bar.css">
@@ -14,10 +14,10 @@
 <body>
 
     <header>
-        <a href="home.html" class="header-logo">
-        <img src="img/tup_logo.svg" alt="School Logo" class="logo">
-        </a>
-        <h1>Technological University of the Philippines - Visayas</h1>
+      <a href="home.html" class="header-logo">
+      <img src="img/tup_logo.svg" alt="School Logo" class="logo">
+      </a>
+      <h1>Technological University of the Philippines - Visayas</h1>
     </header>
 
 <nav class="navbar">
@@ -34,6 +34,7 @@
         <a href="about.html#vision"><i class="fas fa-eye"></i> Vision</a>
         <a href="about.html#core-values"><i class="fas fa-heart"></i> Core Values</a>
       </ul>
+    </li>
 
     <li class="dropdown">
       <a href="admission.html"><i class="fas fa-file-alt"></i> Admission</a>
@@ -64,59 +65,63 @@
   </ul>
 </nav>
 
+<div class="side-navbar">
+  <button onclick="scrollToTop()" title="Scroll to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <a href="home.html" title="Home">
+    <i class="fas fa-home"></i>
+  </a>
+  <button onclick="scrollToBottom()" title="Scroll to Bottom">
+    <i class="fas fa-arrow-down"></i>
+  </button>
+</div>
 
-
-    <div class="fullscreen-slider">
-        <div class="slides">
-        <input type="radio" name="radio-btn" id="slide1" checked>
-        <input type="radio" name="radio-btn" id="slide2">
-        <input type="radio" name="radio-btn" id="slide3">
-        <input type="radio" name="radio-btn" id="slide4">
-        <input type="radio" name="radio-btn" id="slide5">
-
-        <div class="slide first">
-            <a href="https://web.facebook.com/TUPVADMISSION">
-                <img src="img/slide1.jpg" alt="Slide 1">
-            </a>
-        </div>
-        <div class="slide">
-            <a href="https://www.facebook.com/PhilArtisanVisayas/posts/pfbid0yogBGYFLmVcLw7J7X9eoUsYuhMLfMD19Cv7UsZ9MHB3UgjNLzsYKT12RjSgYNaLHl">
-                <img src="img/slide2.jpg" alt="Slide 2">
-            </a>
-        </div>
-        <div class="slide">
-            <a href="https://www.facebook.com/PhilArtisanVisayas/posts/pfbid0Wx39Dqjvqr57EfJtKc7HqJKhM5Ap5MnVis9TocsDgnBtM36BBYc2jpUKZPkYLtxl?_rdc=1&_rdr#">
-                <img src="img/slide3.jpg" alt="Slide 3">
-            </a>
-        </div>
-        <div class="slide">
-            <a href="https://www.facebook.com/tupvtechnowatch/posts/pfbid0ZENiHXCgcnWzZzFFagxWnMN1ShQLXwGKGyseQ7WT8AE88HPwQ69cn2qBEdGQ7vFQl?_rdc=1&_rdr#">
-                <img src="img/slide4.jpg" alt="Slide 4">
-            </a>
-        </div>
-        <div class="slide">
-            <a href="https://www.facebook.com/tupvtechnowatch/posts/pfbid02RusfrXeYcdrUNX9g4dncSKdjt54rhDPDVZxGUXDgCXsz2TqcLEG9UDprVBWjgnh4l?_rdc=1&_rdr#">
-                <img src="img/slide5.jpg" alt="Slide 5">
-            </a>
-        </div>
-
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-            <div class="auto-btn5"></div>
-        </div>
+<!-- Cookie Consent Modal -->
+<div id="cookie-modal" class="cookie-modal">
+  <div class="cookie-content">
+    <h3>🍪 We use cookies!</h3>
+    <p>This website uses cookies to enhance your experience. Please accept or reject.</p>
+    <div class="cookie-buttons">
+      <button id="accept-cookie">Accept</button>
+      <button id="reject-cookie">Reject</button>
     </div>
+  </div>
+</div>
 
-    <div class="navigation-manual">
-        <label for="slide1" class="manual-btn"></label>
-        <label for="slide2" class="manual-btn"></label>
-        <label for="slide3" class="manual-btn"></label>
-        <label for="slide4" class="manual-btn"></label>
-        <label for="slide5" class="manual-btn"></label>
+
+
+<div class="slider-container">
+  <div class="slider-wrapper">
+    <!-- Slides wrapped in anchor tags -->
+    <a href="https://web.facebook.com/TUPVADMISSION" class="slide" data-slide="1" style="background-image: url('img/slide1.jpg');"></a>
+    <a href="https://web.facebook.com/PhilArtisanVisayas/posts/pfbid0yogBGYFLmVcLw7J7X9eoUsYuhMLfMD19Cv7UsZ9MHB3UgjNLzsYKT12RjSgYNaLHl?_rdc=1&_rdr#" class="slide" data-slide="2" style="background-image: url('img/slide2.jpg');"></a>
+    <a href="https://web.facebook.com/PhilArtisanVisayas/posts/pfbid0Wx39Dqjvqr57EfJtKc7HqJKhM5Ap5MnVis9TocsDgnBtM36BBYc2jpUKZPkYLtxl" class="slide" data-slide="3" style="background-image: url('img/slide3.jpg');"></a>
+    <a href="https://web.facebook.com/tupvtechnowatch/posts/pfbid0ZENiHXCgcnWzZzFFagxWnMN1ShQLXwGKGyseQ7WT8AE88HPwQ69cn2qBEdGQ7vFQl" class="slide" data-slide="4" style="background-image: url('img/slide4.jpg');"></a>
+    <a href="https://web.facebook.com/tupvtechnowatch/posts/pfbid02RusfrXeYcdrUNX9g4dncSKdjt54rhDPDVZxGUXDgCXsz2TqcLEG9UDprVBWjgnh4l" class="slide" data-slide="5" style="background-image: url('img/slide5.jpg');"></a>
+    
+    <!-- Navigation Arrows -->
+    <button class="slider-arrow prev-arrow" aria-label="Previous slide">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+        <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/>
+      </svg>
+    </button>
+    <button class="slider-arrow next-arrow" aria-label="Next slide">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+        <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+      </svg>
+    </button>
+    
+    <!-- Navigation Dots -->
+    <div class="slider-nav">
+      <button class="nav-dot active" data-target="1" aria-label="Go to slide 1"></button>
+      <button class="nav-dot" data-target="2" aria-label="Go to slide 2"></button>
+      <button class="nav-dot" data-target="3" aria-label="Go to slide 3"></button>
+      <button class="nav-dot" data-target="4" aria-label="Go to slide 4"></button>
+      <button class="nav-dot" data-target="5" aria-label="Go to slide 5"></button>
     </div>
-    </div>
+  </div>
+</div>
 
 <section class="card-section"> 
   <div class="card">

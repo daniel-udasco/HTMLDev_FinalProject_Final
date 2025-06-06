@@ -64,103 +64,424 @@
   </ul>
 </nav>
 
+<div class="side-navbar">
+  <button onclick="scrollToTop()" title="Scroll to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <a href="home.html" title="Home">
+    <i class="fas fa-home"></i>
+  </a>
+  <button onclick="scrollToBottom()" title="Scroll to Bottom">
+    <i class="fas fa-arrow-down"></i>
+  </button>
+</div>
+
 <section id="about" class="about-section">
+  <div class="about-hero">
+    <div class="about-hero-content">
+    </div>
+  </div>
+
+  <div class="about-container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About TUP-Visayas</h2>
+        <p>The Technological University of the Philippines (TUP) Visayas is a state higher education institution in Talisay City, Negros Occidental. It was established in 1977 as one of the three prototype technician institutes/projects of the National Government. TUP Visayas was then known as the Visayas Technician Institute (VTI).</p>
+        <p>In 1978, the Philippine College of Arts and Trades (PCAT) in Manila was converted into the Technological University of the Philippines (TUP) and was designated as the apex of technology education. Accordingly, the VTI was placed under the management of the TUP. In 1985, the VTI was renamed the Technological University of the Philippines Visayas.</p>
+        <p>Currently, the TUP Visayas is one of the top providers of engineering graduates in the country, producing topnotchers in the Professional Licensure Examination given by the Professional Regulation Commission (PRC).</p>
+        <p>TUP Visayas is located in Talisay City with extension campuses in Sagay City and Cadiz.</p>
+      </div>
+
+      <div class="about-media">
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125437.80129432004!2d122.88706668518913!3d10.739779018321329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed695b2a51da3%3A0x95fc0e20bdc0ab77!2sTechnological%20University%20of%20the%20Philippines%20Visayas!5e0!3m2!1sen!2sph!4v1749064131934!5m2!1sen!2sph" 
+                  width="100%" 
+                  height="300" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="university-gallery">
+  <h2>University Gallery</h2>
+  <div class="gallery-container">
+    <div class="gallery-slides">
+      <div class="gallery-slide active">
+        <img src="img/p_tup2.jpg" alt="TUP-V Campus">
+      </div>
+      <div class="gallery-slide">
+        <img src="img/p_tup3.jpg" alt="TUP-V Building">
+      </div>
+      <div class="gallery-slide">
+        <img src="img/p_tup4.jpg" alt="TUP-V Facilities">
+      </div>
+    </div>
+    <button class="gallery-prev">❮</button>
+    <button class="gallery-next">❯</button>
+  </div>
+  <div class="gallery-dots">
+    <span class="dot active" data-index="0"></span>
+    <span class="dot" data-index="1"></span>
+    <span class="dot" data-index="2"></span>
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="officials-section" id="officials">
   <div class="container">
-
-    <h1>Technological University of the Philippines - Visayas</h1>
-
-    <div class="about-block" id="history">
-      <h2>About TUP-Visayas</h2>
-      <p>The Technological University of the Philippines (TUP) Visayas is a state higher education institution in Talisay City, Negros Occidental. It was established in 1977 as one of the three prototype technician institutes/projects of the National Government. TUP Visayas was then known as the Visayas Technician Institute (VTI).
-      <p>In 1978, the Philippine College of Arts and Trades (PCAT) in Manila was converted into the Technological University of the Philippines (TUP) and was designated as the apex of technology education. Accordingly, the VTI was placed under the management of the TUP. In 1985, the VTI was renamed the Technological University of the Philippines Visayas.</p>
-      <p>Currently, the TUP Visayas is one of the top providers of engineering graduates in the country, producing topnotchers in the Professional Licensure Examination given by the Professional Regulation Commission (PRC).</p>
-      </p>TUP Visayas is located in Talisay City with extension campuses in Sagay City and Cadiz.</p>
+    <h2>TUP-V Officials</h2>
+    
+    <!-- Top Officials (Big Profiles) -->
+    <div class="top-officials">
+      <div class="official-card large">
+        <div class="official-image">
+          <img src="img/rey_ramos.jfif" alt="Engr. Reynaldo P. Ramos">
+        </div>
+        <div class="official-info">
+          <h3>Engr. Reynaldo P. Ramos, Ph.D., EnP</h3>
+          <p>President, Technological University of the Philippines</p>
+        </div>
+      </div>
+      
+      <div class="official-card large">
+        <div class="official-image">
+          <img src="img/eric_malooy.jpg" alt="Prof. Eric A. Malo-oy">
+        </div>
+        <div class="official-info">
+          <h3>Prof. Eric A. Malo-oy, Ph.D.</h3>
+          <p>Campus Director</p>
+        </div>
+      </div>
+      
+      <div class="official-card large">
+        <div class="official-image">
+          <img src="img/patrick_d.jfif" alt="Engr. Patrick John G. Delumea">
+        </div>
+        <div class="official-info">
+          <h3>Engr. Patrick John G. Delumea</h3>
+          <p>Assistant Director for Academic Affairs</p>
+        </div>
+      </div>
+      
+      <div class="official-card large">
+        <div class="official-image">
+          <img src="img/dp_placeholder.jpg" alt="Dr. Lainie Mae L. Bala-an">
+        </div>
+        <div class="official-info">
+          <h3>Dr. Lainie Mae L. Bala-an</h3>
+          <p>Chief Administrative Officer / Assistant Director for Administration and Finance</p>
+        </div>
+      </div>
+      
+      <div class="official-card large">
+        <div class="official-image">
+          <img src="img/dp_placeholder.jpg" alt="Engr. Gregorio L. Crisostomo">
+        </div>
+        <div class="official-info">
+          <h3>Engr. Gregorio L. Crisostomo</h3>
+          <p>Assistant Director for Research and Extension / Innovation and Technology Support Office / Technology Licensing Office Coordinator</p>
+        </div>
+      </div>
     </div>
-
-<section class="tupv-officials-section" id="officials">
-  <h2>TUP-V Officials</h2>
-  <div class="officials-container">
-    <div class="official-card">
-      <img src="img/rey_ramos.jfif" alt="TUP President">
-      <h3>Engr. Reynaldo P. Ramos, Ph.D., EnP</h3>
-      <p>President, Technological University of the Philippines</p>
-    </div>
-    <div class="official-card">
-      <img src="img/eric_malooy.jpg" alt="Campus Director">
-      <h3>Dr. Eric A. Malooy, Ph.D.</h3>
-      <p>Campus Director, TUP Visayas</p>
-    </div>
-    <div class="official-card">
-      <img src="img/marc_siason.jfif" alt="College Dean">
-      <h3>Engr. Marc Francis Siason</h3>
-      <p>College Dean</p>
+    
+    <!-- Sector Heads -->
+    <div class="sector-heads">
+      <!-- Administration and Finance -->
+      <div class="sector">
+        <h3>ADMINISTRATION AND FINANCE SECTOR HEADS</h3>
+        <div class="officials-grid">
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Alita D. Causing">
+            <h4>Ms. Alita D. Causing</h4>
+            <p>Human Resources and Management</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Celeste Graces D.G. Umpa">
+            <h4>Ms. Celeste Graces D.G. Umpa</h4>
+            <p>Accounting</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Marioris C. Visitacion">
+            <h4>Ms. Marioris C. Visitacion</h4>
+            <p>Budget</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Helena T. Repe">
+            <h4>Ms. Helena T. Repe</h4>
+            <p>Supply and Auxiliary</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Grace L. Valdez">
+            <h4>Ms. Grace L. Valdez</h4>
+            <p>Cashier</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Mr. Precioso G. Espinosa Jr.">
+            <h4>Mr. Precioso G. Espinosa Jr.</h4>
+            <p>Procurement</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Dr. Justine Mary A. Golingay">
+            <h4>Dr. Justine Mary A. Golingay</h4>
+            <p>Medical & Dental</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Academic and Student Services -->
+      <div class="sector">
+        <h3>ACADEMIC AND STUDENT SERVICES SECTOR HEADS</h3>
+        <div class="officials-grid">
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Aislin Danielle A. David">
+            <h4>Ms. Aislin Danielle A. David</h4>
+            <p>Share of a Life-Based Parenting (ST)</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Janette P. Dichosa">
+            <h4>Ms. Janette P. Dichosa</h4>
+            <p>Library</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Mr. Edoel F. Gaitan">
+            <h4>Mr. Edoel F. Gaitan</h4>
+            <p>Registrar</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Marian Christina Grace T. Ferrer">
+            <h4>Ms. Marian Christina Grace T. Ferrer</h4>
+            <p>Student Affairs and Services</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Maritess R. Vasquez">
+            <h4>Ms. Maritess R. Vasquez</h4>
+            <p>Basic Arts and Sciences</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- College of Engineering -->
+      <div class="sector">
+        <h3>COLLEGE OF ENGINEERING</h3>
+        <div class="officials-grid">
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Sheila May L. Escobar">
+            <h4>Engr. Sheila May L. Escobar</h4>
+            <p>Dean, College of Engineering</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Aljo N. Habaradas">
+            <h4>Engr. Aljo N. Habaradas</h4>
+            <p>Facilitator of Science in Instrumentation and Control Engineering</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Rene V. Bolo">
+            <h4>Engr. Rene V. Bolo</h4>
+            <p>Facilitator of Science in Mechanical Engineering</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Charisse S. Jeruta">
+            <h4>Engr. Charisse S. Jeruta</h4>
+            <p>Bachelor of Science in Mechatronics Engineering</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Renato S. Deldo">
+            <h4>Engr. Renato S. Deldo</h4>
+            <p>Bachelor of Science in Electronics Engineering</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Mr. Daryl P. Amodia">
+            <h4>Mr. Daryl P. Amodia</h4>
+            <p>Bachelor of Engineering Technology Major in Mechatronics Technology</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Joel M. Bergola">
+            <h4>Engr. Joel M. Bergola</h4>
+            <p>Bachelor of Science in Electrical Engineering</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Jayson John G. Quintanilla">
+            <h4>Engr. Jayson John G. Quintanilla</h4>
+            <p>Bachelor of Science in Computer Engineering</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Research and Extension -->
+      <div class="sector">
+        <h3>RESEARCH AND EXTENSION SECTOR HEADS</h3>
+        <div class="officials-grid">
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Abe Zander Camitonio">
+            <h4>Engr. Abe Zander Camitonio</h4>
+            <p>Head, Research Services</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Dr. Melinda A. Sisles">
+            <h4>Dr. Melinda A. Sisles</h4>
+            <p>Campus Quality Assurance</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Jovel V. Young">
+            <h4>Engr. Jovel V. Young</h4>
+            <p>Head, Extension Services</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Arch. Louie Jay C. Gonzales">
+            <h4>Arch. Louie Jay C. Gonzales</h4>
+            <p>Officer in Charge, Planning Office</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Rutchel E. Pabalinas">
+            <h4>Ms. Rutchel E. Pabalinas</h4>
+            <p>Linkages and Consortia</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Joel B. Sumugat">
+            <h4>Engr. Joel B. Sumugat</h4>
+            <p>ETEAAP and Graduate Studies Coordinator</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Engr. Christopher S. Faciolan">
+            <h4>Engr. Christopher S. Faciolan</h4>
+            <p>University Information Technology Center</p>
+          </div>
+          
+          <div class="official-card">
+            <img src="img/dp_placeholder.jpg" alt="Ms. Erlyn H. Maligaya">
+            <h4>Ms. Erlyn H. Maligaya</h4>
+            <p>Gender and Development</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-    <section class="tup-hymn-section" id="tup-hymn">
-  <h2>TUP Hymn</h2>
-  <h3>Lyrics:</h3>
-  <p>Kami sa 'yo'y nagpupugay TUP</p>
-  <p>Ang 'yong tanglaw, liwanag sa aming landas</p>
-  <p>Diwa mo'y ginto, pusong wagas</p>
-  <p>Alay naming sa iyo'y lahat ng hirap</p> 
-  <p>Buong pag-ibig at paglilingkod na ganap</p>
-  <br> 
-  <p>Kay dami ng anak na 'yong pinagyaman</p>
-  <p>Dahil sa 'yo ngayo'y haligi ng bayan</p>
-  <p>Moog ka ng laya at dangal</p>
-  <p>Teknolohikal na Unibersidad ng Pilipinas</p> 
-  <p>Bantayog ka ng lahi naming minamahal</p>
-  <br>
-  <p><b>The official hymn of the Technological University of the Philippines reflects the university's values and pride. Listen below:</b></p>
-  
-  <div class="video-container">
-    <iframe 
-      src="https://www.youtube.com/embed/-4EmUd1Es7U" 
-      title="TUP Hymn" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      allowfullscreen>
-    </iframe>
+<section class="hymn-section" id="tup-hymn">
+  <div class="hymn-container">
+    <div class="hymn-header">
+      <i class="fas fa-music"></i>
+      <h2>TUP Hymn</h2>
+    </div>
+    
+    <div class="hymn-content">
+      <div class="lyrics-box">
+        <div class="lyrics-header">
+          <h3>Lyrics</h3>
+          <div class="music-note"><i class="fas fa-music"></i></div>
+        </div>
+        <div class="lyrics-text">
+          <p>Kami sa 'yo'y nagpupugay TUP</p>
+          <p>Ang 'yong tanglaw, liwanag sa aming landas</p>
+          <p>Diwa mo'y ginto, pusong wagas</p>
+          <p>Alay naming sa iyo'y lahat ng hirap</p> 
+          <p>Buong pag-ibig at paglilingkod na ganap</p>
+          <br> 
+          <p>Kay dami ng anak na 'yong pinagyaman</p>
+          <p>Dahil sa 'yo ngayo'y haligi ng bayan</p>
+          <p>Moog ka ng laya at dangal</p>
+          <p>Teknolohikal na Unibersidad ng Pilipinas</p> 
+          <p>Bantayog ka ng lahi naming minamahal</p>
+        </div>
+      </div>
+      
+      <div class="video-box">
+        <div class="video-header">
+          <i class="fab fa-youtube"></i>
+          <h3>Listen to the Hymn</h3>
+        </div>
+        <div class="video-container">
+          <iframe 
+            src="https://www.youtube.com/embed/-4EmUd1Es7U" 
+            title="TUP Hymn" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <a href="https://www.youtube.com/watch?v=-4EmUd1Es7U" target="_blank" class="youtube-link">
+          Watch on YouTube <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 
-    <div class="about-block" id="mission">
-      <h2>Mission</h2>
-      <p>TUP: A premier state university with recognized
-          excellenceinengineeringandtechnologyeducation
-          at par with leading universities in the ASEAN region.</p>
+    <section class="mv-section">
+  <div class="mv-container">
+    <!-- Mission Section -->
+    <div class="mv-card mission-card">
+      <div class="mv-header">
+        <i class="fas fa-bullseye"></i>
+        <h2>Mission</h2>
+      </div>
+      <div class="mv-content">
+        <p>TUP: A premier state university with recognized excellence in engineering and technology education at par with leading universities in the ASEAN region.</p>
+      </div>
+      <div class="mv-corner"></div>
     </div>
 
-    <div class="about-block" id="vision">
-      <h2>Vision</h2>
-      <p>The mission of TUP is stated in Section 2 of P.D. No. 1518
-        as follows:The University shall provide higher and
-        advanced vocational, technical, industrial,
-        technological, and professional education and training
-        in industries and technology,and in practical arts
-        leading to certificates, diplomas, and degrees. It shall
-        provide progressive leadership in applied research,
-        developmental studies in technical, industrial, and
-        technological fields and production using indigenous
-        materials; effect technology transfer in the countryside;
-        and assist in the development of small-and-medium
-        scale industries in identified growth centers.</p>
+    <!-- Vision Section -->
+    <div class="mv-card vision-card">
+      <div class="mv-header">
+        <i class="fas fa-eye"></i>
+        <h2>Vision</h2>
+      </div>
+      <div class="mv-content">
+        <p>The mission of TUP is stated in Section 2 of P.D. No. 1518 as follows: The University shall provide higher and advanced vocational, technical, industrial, technological, and professional education and training in industries and technology, and in practical arts leading to certificates, diplomas, and degrees. It shall provide progressive leadership in applied research, developmental studies in technical, industrial, and technological fields and production using indigenous materials; effect technology transfer in the countryside; and assist in the development of small-and-medium scale industries in identified growth centers.</p>
+      </div>
+      <div class="mv-corner"></div>
     </div>
 
-    <div class="about-block" id="core-values">
-      <h2>Core Values</h2>
-      <ul>
-        <li><b>T</b> - Transparent and participatory governance</li>
-        <li><b>U</b> - Unity in the pursuit of TUP mission, goals, and objectives </li>
-        <li><b>P</b> - Professionalism in the discharge of quality service</li>
-        <li><b>I</b> - Integrity and commitment to maintain the good name of the University</li>
-        <li><b>A</b> - Accountability for individual and organizational quality performance </li>
-        <li><b>N</b> - Nationalism through tangible contribution to the rapid economic growth of the country</li>
-        <li><b>S</b> - Shared responsibility, hard work, and resourcefulness in compliance to the mandates of the university</li>
-      </ul>
+    <!-- Core Values Section -->
+    <div class="mv-card values-card">
+      <div class="mv-header">
+        <i class="fas fa-heart"></i>
+        <h2>Core Values</h2>
+      </div>
+      <div class="mv-content">
+        <ul>
+          <li><b>T</b> - Transparent and participatory governance</li>
+          <li><b>U</b> - Unity in the pursuit of TUP mission, goals, and objectives</li>
+          <li><b>P</b> - Professionalism in the discharge of quality service</li>
+          <li><b>I</b> - Integrity and commitment to maintain the good name of the University</li>
+          <li><b>A</b> - Accountability for individual and organizational quality performance</li>
+          <li><b>N</b> - Nationalism through tangible contribution to the rapid economic growth of the country</li>
+          <li><b>S</b> - Shared responsibility, hard work, and resourcefulness in compliance to the mandates of the university</li>
+        </ul>
+      </div>
+      <div class="mv-corner"></div>
     </div>
+  </div>
+</section>
 
   </div>
 </section>
@@ -198,5 +519,6 @@
 </footer>
 
 <script src="/script/script.js"></script>
+<script src="/script/about.js"></script>
 </body>
 </html>
