@@ -1,16 +1,25 @@
 // Cookie Modal
+/* REMOVE FOR HOME
 const cookieModal = document.getElementById('cookie-modal');
 const acceptBtn = document.getElementById('accept-cookie');
 const rejectBtn = document.getElementById('reject-cookie');
 
-  acceptBtn.addEventListener('click', () => {
-  cookieModal.classList.add('hide');
-  });
+// Show cookie modal after 2 seconds
+setTimeout(() => {
+  if (cookieModal) {
+    cookieModal.classList.remove('hide'); // Make sure it's visible
+    cookieModal.style.display = 'block'; // Or use whatever display property you need
+  }
+}, 3000);
 
-  rejectBtn.addEventListener('click', () => {
+acceptBtn.addEventListener('click', () => {
   cookieModal.classList.add('hide');
-  });
+});
 
+rejectBtn.addEventListener('click', () => {
+  cookieModal.classList.add('hide');
+});
+*/
 
 // Newsletter Subscription Modal
 document.addEventListener("DOMContentLoaded", () => {
