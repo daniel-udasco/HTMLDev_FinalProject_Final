@@ -15,6 +15,7 @@
   text-align: center;
   transition: transform 0.3s ease, opacity 0.3s ease;
   border: 1px solid #E0E0E0;
+  display: none;
 }
 
 .cookie-content h3 {
@@ -67,6 +68,11 @@
   opacity: 0;
   transform: translate(-50%, -30%);
   pointer-events: none;
+  display: none !important;
+}
+
+.cookie-modal.show {
+  display: block; /* Or flex, depending on your layout */
 }
 
 .newsletter-modal {

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: poppins, sans-serif;
     margin: 0;
@@ -78,7 +82,7 @@ header {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -312,7 +316,7 @@ input[type="radio"] {
 .about-hero {
   position: relative;
   height: 60vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  background: linear-gradient(rgba(79, 79, 79, 0.6), rgba(209, 58, 58, 0.6)), 
               url('../img/p_tup1.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -738,9 +742,9 @@ input[type="radio"] {
 }
 
 .music-note i {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   opacity: 0.7;
-  animation: float 3s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
 }
 
 .lyrics-text {
@@ -786,7 +790,7 @@ input[type="radio"] {
 .video-container {
   padding: 20px;
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 73%;
   height: 0;
   overflow: hidden;
 }
@@ -1449,20 +1453,20 @@ input[type="radio"] {
 /* Footer */
 .footer {
   background-color: #2E2E30;
-  color: #F5F5F5;
+  color: #fff;
   padding: 40px 20px;
   text-align: center;
   position: relative;
 }
 
 .footer h3 {
-  font-size: 22px;
+  font-size: 20px; /* reduced from 22px */
   margin-bottom: 10px;
 }
 
 .footer p {
-  font-size: 14px;
-  margin-bottom: 25px;
+  font-size: 13px; /* reduced from 14px */
+  margin-bottom: 20px; /* slightly reduced spacing */
 }
 
 .contact-section {
@@ -1470,7 +1474,7 @@ input[type="radio"] {
 }
 
 .contact-section h4 {
-  font-size: 18px;
+  font-size: 16px; /* reduced from 18px */
   margin-bottom: 10px;
 }
 
@@ -1483,16 +1487,15 @@ input[type="radio"] {
   margin: 8px 0;
 }
 
-
 .contact-list a {
-  color: #E0E0E0;
+  color: #ccc;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px; /* reduced from 16px */
   transition: all 0.3s ease;
 }
 
 .contact-list a:hover {
-  color: #C51D34;
+  color: #ff4d4d;
 }
 
 .contact-list i {
